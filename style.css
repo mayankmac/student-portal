@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    width: 100%;
+    padding: 5%;
+}
+.container{
+    border: 1px solid #00ffc3;
+    width: 80%;
+    margin: auto;
+    padding: 0;
+}
+
+.title{
+    background-color: #00ffc3;
+    color: #fff;
+    padding: 1.5%;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer{
+    background-color: #00ffc3;
+    color: #fff;
+    padding: 0.4%;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1%;
+    margin: 3% 0;
+}
+.radio-container{
+    display: flex;
+    flex-direction: row !important;
+    align-items: flex-start;
+
+}
+.check-box-container{
+    display: flex;
+    flex-direction: row !important; 
+    align-items: center;
+}
+.label-for-checkbox,.label-for-radio{
+    margin-right: 10px;
+}
+
+label{
+    padding: 1%;
+}
+.form-field{
+    justify-content: space-between;
+}
+.form-content-section{
+    border-right: 2px solid #00ffc3;
+    padding-right: 50px;
+}
+.enrolled-student-section{
+    width: 45%;
+}
+.student-description-row{
+    background-color: #76ff49;
+    width: 105.3%;
+}
+.student-heading{
+    text-align: center;
+}
+.student-description-content-row{
+    border: 2px solid #76ff49;
+}
+.stud-img{
+    border-left: 2px solid #76ff49;
+    padding: 3px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#enrollment-section{
+    height: 300px;
+    overflow-x: scroll !important;
+}
+.website-label{
+    /* margin-right: 1px; */
+    font-size: 14px;
+}
